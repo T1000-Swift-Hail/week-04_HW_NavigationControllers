@@ -13,12 +13,15 @@ Jupiter is the fifth planet from the Sun and the largest in the Solar System. It
 
 
 The image :
-![alt text]()
+![alt text](https://github.com/T1000-Swift-Hail/week-04_HW_NavigationControllers/blob/main/jupiterr.jpeg?raw=true)
 
 
 #### Your Story Board should look like this :
-![alt text]()
+
+![alt text](https://github.com/T1000-Swift-Hail/week-04_HW_NavigationControllers/blob/main/Screen%20Shot%202021-10-27%20at%205.36.27%20PM.png?raw=true)
 
 
 #### The app  should look like this :
-![alt text]()
+![alt text](https://github.com/T1000-Swift-Hail/week-04_HW_NavigationControllers/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-10-27%20at%2017.42.55.png?raw=true)
+
+![alt text](https://github.com/T1000-Swift-Hail/week-04_HW_NavigationControllers/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-10-27%20at%2017.42.59.png?raw=true)
