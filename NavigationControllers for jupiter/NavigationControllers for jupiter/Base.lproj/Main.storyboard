@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsj-W9-oE7">
-                                <rect key="frame" x="292" y="398" width="102" height="100"/>
+                                <rect key="frame" x="292" y="398" width="102" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="102" id="sfB-NW-XOp"/>
+                                    <constraint firstAttribute="width" constant="102" id="75M-uD-aY7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -29,39 +29,38 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jupiter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1I-tu-PfW">
-                                <rect key="frame" x="20" y="248" width="84" height="34"/>
+                                <rect key="frame" x="20" y="248" width="84" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fy5-n1-46w">
-                                <rect key="frame" x="20" y="297" width="374" height="302"/>
-                                <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combine...</string>
-                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jupiterr" translatesAutoresizingMaskIntoConstraints="NO" id="CQR-Ew-lYQ">
                                 <rect key="frame" x="-13" y="-49" width="440" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="6rk-Rd-hq8"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fy5-n1-46w">
+                                <rect key="frame" x="20" y="289" width="374" height="101"/>
+                                <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combine...</string>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="CQR-Ew-lYQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8nh-Vt-6qR"/>
-                            <constraint firstItem="gsj-W9-oE7" firstAttribute="top" secondItem="CQR-Ew-lYQ" secondAttribute="bottom" constant="197" id="DlH-AB-CLs"/>
-                            <constraint firstItem="gsj-W9-oE7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KrS-Oz-Kxf"/>
+                            <constraint firstItem="Fy5-n1-46w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="961-cJ-Xai"/>
+                            <constraint firstItem="Fy5-n1-46w" firstAttribute="top" secondItem="h1I-tu-PfW" secondAttribute="bottom" constant="7.5" id="Dks-0N-mIf"/>
                             <constraint firstItem="h1I-tu-PfW" firstAttribute="top" secondItem="CQR-Ew-lYQ" secondAttribute="bottom" constant="47" id="QFW-ad-7El"/>
-                            <constraint firstItem="Fy5-n1-46w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VHe-K9-rQi"/>
                             <constraint firstItem="CQR-Ew-lYQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-49" id="Vza-s3-iAZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gsj-W9-oE7" secondAttribute="trailing" constant="20" id="YZJ-xM-VS7"/>
                             <constraint firstItem="h1I-tu-PfW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="a5Z-lb-wXP"/>
-                            <constraint firstItem="Fy5-n1-46w" firstAttribute="top" secondItem="h1I-tu-PfW" secondAttribute="bottom" constant="15" id="cMP-O1-xga"/>
-                            <constraint firstItem="Fy5-n1-46w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gYv-Rm-9Xu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gsj-W9-oE7" secondAttribute="trailing" constant="20" id="hnk-5g-jxK"/>
-                            <constraint firstItem="Fy5-n1-46w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x25-MW-ds8"/>
+                            <constraint firstItem="gsj-W9-oE7" firstAttribute="top" secondItem="Fy5-n1-46w" secondAttribute="bottom" constant="8" symbolic="YES" id="brG-4S-Tw9"/>
+                            <constraint firstItem="Fy5-n1-46w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="f0O-ci-M4V"/>
+                            <constraint firstItem="gsj-W9-oE7" firstAttribute="top" secondItem="CQR-Ew-lYQ" secondAttribute="bottom" constant="197" id="u1b-cX-IKB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Idx-r5-uQo"/>
@@ -80,7 +79,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Db-zS-bOA">
                                 <rect key="frame" x="5" y="109" width="404" height="678"/>
-                                <mutableString key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its observed size.Jupiter is primarily composed of hydrogen, but helium constitutes one quarter of its mass and one tenth of its volume.</mutableString>
+                                <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its observed size.Jupiter is primarily composed of hydrogen, but helium constitutes one quarter of its mass and one tenth of its volume.</string>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
