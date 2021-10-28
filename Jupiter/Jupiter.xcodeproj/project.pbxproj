@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290E863F2729D990004FB0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E863E2729D990004FB0FC /* AppDelegate.swift */; };
+		290E86412729D990004FB0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E86402729D990004FB0FC /* SceneDelegate.swift */; };
+		290E86432729D990004FB0FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E86422729D990004FB0FC /* ViewController.swift */; };
+		290E86462729D990004FB0FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E86442729D990004FB0FC /* Main.storyboard */; };
+		290E86482729D992004FB0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290E86472729D992004FB0FC /* Assets.xcassets */; };
+		290E864B2729D992004FB0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E86492729D992004FB0FC /* LaunchScreen.storyboard */; };
+		290E86562729D992004FB0FC /* JupiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E86552729D992004FB0FC /* JupiterTests.swift */; };
+		290E86602729D992004FB0FC /* JupiterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E865F2729D992004FB0FC /* JupiterUITests.swift */; };
+		290E86622729D992004FB0FC /* JupiterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E86612729D992004FB0FC /* JupiterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		290E86522729D992004FB0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290E86332729D990004FB0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290E863A2729D990004FB0FC;
+			remoteInfo = Jupiter;
+		};
+		290E865C2729D992004FB0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290E86332729D990004FB0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290E863A2729D990004FB0FC;
+			remoteInfo = Jupiter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290E863B2729D990004FB0FC /* Jupiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jupiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E863E2729D990004FB0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290E86402729D990004FB0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		290E86422729D990004FB0FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		290E86452729D990004FB0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290E86472729D992004FB0FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290E864A2729D992004FB0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290E864C2729D992004FB0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290E86512729D992004FB0FC /* JupiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JupiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E86552729D992004FB0FC /* JupiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterTests.swift; sourceTree = "<group>"; };
+		290E865B2729D992004FB0FC /* JupiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JupiterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E865F2729D992004FB0FC /* JupiterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterUITests.swift; sourceTree = "<group>"; };
+		290E86612729D992004FB0FC /* JupiterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290E86382729D990004FB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E864E2729D992004FB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E86582729D992004FB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290E86322729D990004FB0FC = {
+			isa = PBXGroup;
+			children = (
+				290E863D2729D990004FB0FC /* Jupiter */,
+				290E86542729D992004FB0FC /* JupiterTests */,
+				290E865E2729D992004FB0FC /* JupiterUITests */,
+				290E863C2729D990004FB0FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290E863C2729D990004FB0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290E863B2729D990004FB0FC /* Jupiter.app */,
+				290E86512729D992004FB0FC /* JupiterTests.xctest */,
+				290E865B2729D992004FB0FC /* JupiterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290E863D2729D990004FB0FC /* Jupiter */ = {
+			isa = PBXGroup;
+			children = (
+				290E863E2729D990004FB0FC /* AppDelegate.swift */,
+				290E86402729D990004FB0FC /* SceneDelegate.swift */,
+				290E86422729D990004FB0FC /* ViewController.swift */,
+				290E86442729D990004FB0FC /* Main.storyboard */,
+				290E86472729D992004FB0FC /* Assets.xcassets */,
+				290E86492729D992004FB0FC /* LaunchScreen.storyboard */,
+				290E864C2729D992004FB0FC /* Info.plist */,
+			);
+			path = Jupiter;
+			sourceTree = "<group>";
+		};
+		290E86542729D992004FB0FC /* JupiterTests */ = {
+			isa = PBXGroup;
+			children = (
+				290E86552729D992004FB0FC /* JupiterTests.swift */,
+			);
+			path = JupiterTests;
+			sourceTree = "<group>";
+		};
+		290E865E2729D992004FB0FC /* JupiterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				290E865F2729D992004FB0FC /* JupiterUITests.swift */,
+				290E86612729D992004FB0FC /* JupiterUITestsLaunchTests.swift */,
+			);
+			path = JupiterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290E863A2729D990004FB0FC /* Jupiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E86652729D992004FB0FC /* Build configuration list for PBXNativeTarget "Jupiter" */;
+			buildPhases = (
+				290E86372729D990004FB0FC /* Sources */,
+				290E86382729D990004FB0FC /* Frameworks */,
+				290E86392729D990004FB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jupiter;
+			productName = Jupiter;
+			productReference = 290E863B2729D990004FB0FC /* Jupiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290E86502729D992004FB0FC /* JupiterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E86682729D992004FB0FC /* Build configuration list for PBXNativeTarget "JupiterTests" */;
+			buildPhases = (
+				290E864D2729D992004FB0FC /* Sources */,
+				290E864E2729D992004FB0FC /* Frameworks */,
+				290E864F2729D992004FB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290E86532729D992004FB0FC /* PBXTargetDependency */,
+			);
+			name = JupiterTests;
+			productName = JupiterTests;
+			productReference = 290E86512729D992004FB0FC /* JupiterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		290E865A2729D992004FB0FC /* JupiterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E866B2729D992004FB0FC /* Build configuration list for PBXNativeTarget "JupiterUITests" */;
+			buildPhases = (
+				290E86572729D992004FB0FC /* Sources */,
+				290E86582729D992004FB0FC /* Frameworks */,
+				290E86592729D992004FB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290E865D2729D992004FB0FC /* PBXTargetDependency */,
+			);
+			name = JupiterUITests;
+			productName = JupiterUITests;
+			productReference = 290E865B2729D992004FB0FC /* JupiterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290E86332729D990004FB0FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					290E863A2729D990004FB0FC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					290E86502729D992004FB0FC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 290E863A2729D990004FB0FC;
+					};
+					290E865A2729D992004FB0FC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 290E863A2729D990004FB0FC;
+					};
+				};
+			};
+			buildConfigurationList = 290E86362729D990004FB0FC /* Build configuration list for PBXProject "Jupiter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290E86322729D990004FB0FC;
+			productRefGroup = 290E863C2729D990004FB0FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290E863A2729D990004FB0FC /* Jupiter */,
+				290E86502729D992004FB0FC /* JupiterTests */,
+				290E865A2729D992004FB0FC /* JupiterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290E86392729D990004FB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E864B2729D992004FB0FC /* LaunchScreen.storyboard in Resources */,
+				290E86482729D992004FB0FC /* Assets.xcassets in Resources */,
+				290E86462729D990004FB0FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E864F2729D992004FB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E86592729D992004FB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290E86372729D990004FB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E86432729D990004FB0FC /* ViewController.swift in Sources */,
+				290E863F2729D990004FB0FC /* AppDelegate.swift in Sources */,
+				290E86412729D990004FB0FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E864D2729D992004FB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E86562729D992004FB0FC /* JupiterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E86572729D992004FB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E86622729D992004FB0FC /* JupiterUITestsLaunchTests.swift in Sources */,
+				290E86602729D992004FB0FC /* JupiterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290E86532729D992004FB0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290E863A2729D990004FB0FC /* Jupiter */;
+			targetProxy = 290E86522729D992004FB0FC /* PBXContainerItemProxy */;
+		};
+		290E865D2729D992004FB0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290E863A2729D990004FB0FC /* Jupiter */;
+			targetProxy = 290E865C2729D992004FB0FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		290E86442729D990004FB0FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E86452729D990004FB0FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290E86492729D992004FB0FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E864A2729D992004FB0FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290E86632729D992004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290E86642729D992004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290E86662729D992004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jupiter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.Jupiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		290E86672729D992004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jupiter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.Jupiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		290E86692729D992004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.JupiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jupiter.app/Jupiter";
+			};
+			name = Debug;
+		};
+		290E866A2729D992004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.JupiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jupiter.app/Jupiter";
+			};
+			name = Release;
+		};
+		290E866C2729D992004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.JupiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jupiter;
+			};
+			name = Debug;
+		};
+		290E866D2729D992004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.JupiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jupiter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290E86362729D990004FB0FC /* Build configuration list for PBXProject "Jupiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E86632729D992004FB0FC /* Debug */,
+				290E86642729D992004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E86652729D992004FB0FC /* Build configuration list for PBXNativeTarget "Jupiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E86662729D992004FB0FC /* Debug */,
+				290E86672729D992004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E86682729D992004FB0FC /* Build configuration list for PBXNativeTarget "JupiterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E86692729D992004FB0FC /* Debug */,
+				290E866A2729D992004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E866B2729D992004FB0FC /* Build configuration list for PBXNativeTarget "JupiterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E866C2729D992004FB0FC /* Debug */,
+				290E866D2729D992004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290E86332729D990004FB0FC /* Project object */;
+}
