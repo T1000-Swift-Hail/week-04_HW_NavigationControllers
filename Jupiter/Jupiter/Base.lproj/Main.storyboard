@@ -16,40 +16,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jupiter                                " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1Q-W7-NOB">
-                                <rect key="frame" x="10" y="323" width="191" height="35"/>
+                                <rect key="frame" x="10" y="323" width="289" height="35"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="b6d-oF-AiB"/>
-                                    <constraint firstAttribute="width" constant="299" id="fM9-VL-OQm"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="jupiterr.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="eja-l2-sSG">
-                                <rect key="frame" x="-6" y="-58" width="440" height="373"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="jupiterr" translatesAutoresizingMaskIntoConstraints="NO" id="eja-l2-sSG">
+                                <rect key="frame" x="-6" y="-58" width="332" height="373"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="373" id="EdJ-He-ASC"/>
-                                    <constraint firstAttribute="width" constant="440" id="msY-98-xeC"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wg8-Em-54S">
-                                <rect key="frame" x="10" y="366" width="300" height="71.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="408" id="6xH-CS-8eR"/>
-                                    <constraint firstAttribute="height" constant="71.670000000000002" id="wLx-1c-hSL"/>
-                                </constraints>
+                                <rect key="frame" x="10" y="368" width="300" height="90"/>
                                 <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combine...</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg2-dl-5UD">
-                                <rect key="frame" x="258" y="459" width="10" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="118" id="OuI-rN-tgr"/>
-                                    <constraint firstAttribute="height" constant="31" id="dQ9-8Y-nNM"/>
-                                </constraints>
+                                <rect key="frame" x="170.5" y="477.5" width="97.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Learn More"/>
                                 <connections>
@@ -60,18 +47,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pg2-dl-5UD" secondAttribute="trailing" constant="52" id="1QC-Ur-0q9"/>
-                            <constraint firstItem="Wg8-Em-54S" firstAttribute="top" secondItem="D1Q-W7-NOB" secondAttribute="bottom" constant="8" id="4tb-3H-5gD"/>
-                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Fyt-Df-gQc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pg2-dl-5UD" secondAttribute="trailing" constant="52" id="0vm-wb-1N6"/>
+                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="top" secondItem="eja-l2-sSG" secondAttribute="bottom" constant="8" symbolic="YES" id="2nO-zM-auI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wg8-Em-54S" secondAttribute="trailing" constant="10" id="6LY-qn-1j1"/>
                             <constraint firstAttribute="trailing" secondItem="eja-l2-sSG" secondAttribute="trailing" constant="-6" id="GVI-qR-30N"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wg8-Em-54S" secondAttribute="trailing" constant="10" id="GsW-Eu-uJV"/>
-                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="top" secondItem="eja-l2-sSG" secondAttribute="bottom" constant="8" id="HeX-mv-pfG"/>
-                            <constraint firstItem="Pg2-dl-5UD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="258" id="Uim-cJ-1Yq"/>
-                            <constraint firstItem="Wg8-Em-54S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="dgI-Dg-zlR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D1Q-W7-NOB" secondAttribute="trailing" constant="119" id="kUU-Lu-QTK"/>
+                            <constraint firstItem="Wg8-Em-54S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="H3f-1R-Jcq"/>
+                            <constraint firstItem="Wg8-Em-54S" firstAttribute="top" secondItem="D1Q-W7-NOB" secondAttribute="bottom" constant="10" id="Irz-xj-nDN"/>
+                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="SLT-V6-KMy"/>
+                            <constraint firstItem="Pg2-dl-5UD" firstAttribute="top" secondItem="Wg8-Em-54S" secondAttribute="bottom" constant="19.329999999999998" id="WvO-V0-6aF"/>
                             <constraint firstItem="eja-l2-sSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-6" id="udE-HH-XMt"/>
                             <constraint firstItem="eja-l2-sSG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-58" id="xiC-hz-gT9"/>
-                            <constraint firstItem="Pg2-dl-5UD" firstAttribute="top" secondItem="Wg8-Em-54S" secondAttribute="bottom" constant="21.329999999999998" id="yO0-Jh-LLI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GmP-8d-kJO"/>
@@ -99,11 +84,9 @@
                         <viewLayoutGuide key="safeArea" id="yms-ce-Omx"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hoH-TG-VN7" firstAttribute="centerX" secondItem="1pQ-65-V5I" secondAttribute="centerX" id="QQH-pH-OaG"/>
-                            <constraint firstItem="hoH-TG-VN7" firstAttribute="top" secondItem="yms-ce-Omx" secondAttribute="top" constant="20" id="S3j-qF-fNd"/>
-                            <constraint firstItem="hoH-TG-VN7" firstAttribute="leading" secondItem="1pQ-65-V5I" secondAttribute="leading" constant="20" id="cFC-r0-zgG"/>
-                            <constraint firstItem="yms-ce-Omx" firstAttribute="bottom" secondItem="hoH-TG-VN7" secondAttribute="bottom" constant="621.66999999999996" id="eDj-8y-vnd"/>
-                            <constraint firstAttribute="trailing" secondItem="hoH-TG-VN7" secondAttribute="trailing" constant="20" id="qX7-0C-mdz"/>
+                            <constraint firstItem="hoH-TG-VN7" firstAttribute="leading" secondItem="yms-ce-Omx" secondAttribute="leading" constant="20" id="3EN-GJ-vun"/>
+                            <constraint firstItem="hoH-TG-VN7" firstAttribute="top" secondItem="yms-ce-Omx" secondAttribute="top" constant="20" id="Und-SL-cvg"/>
+                            <constraint firstItem="yms-ce-Omx" firstAttribute="trailing" secondItem="hoH-TG-VN7" secondAttribute="trailing" constant="20" id="iOY-F4-lpX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CIN-gg-UXv">
@@ -135,6 +118,6 @@
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="99"/>
-        <image name="jupiterr.jpeg" width="440" height="440"/>
+        <image name="jupiterr" width="440" height="440"/>
     </resources>
 </document>
