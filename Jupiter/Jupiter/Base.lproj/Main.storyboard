@@ -41,6 +41,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Learn More">
                                     <color key="baseForegroundColor" systemColor="linkColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="sZw-DS-jb0" kind="show" id="e86-c9-go7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -121,6 +124,9 @@
             <point key="canvasLocation" x="18.840579710144929" y="85.714285714285708"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="e86-c9-go7"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="jupiterr" width="440" height="440"/>
         <systemColor name="labelColor">
