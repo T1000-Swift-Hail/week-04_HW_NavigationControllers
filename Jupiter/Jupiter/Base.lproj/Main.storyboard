@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fg1-G4-4u0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="d5d-zZ-tgN">
+            <objects>
+                <navigationController id="fg1-G4-4u0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="w9j-U6-U6Z">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ffc-GH-OaC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tGr-M4-9ES" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-870" y="66"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Jupiter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="jupiterr" translatesAutoresizingMaskIntoConstraints="NO" id="PzQ-6W-2L4">
+                                <rect key="frame" x="-25" y="-44" width="464" height="440"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jupiter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wus-1D-cBf">
+                                <rect key="frame" x="20" y="382" width="135" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="X7x-hc-9Tj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbV-xS-hGC">
+                                <rect key="frame" x="316.5" y="572" width="97.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn More"/>
+                                <connections>
+                                    <action selector="learnMoreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jde-By-cjF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TmY-w4-Wwo">
+                                <rect key="frame" x="2" y="460.5" width="410" height="107.5"/>
+                                <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combine.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cbV-xS-hGC" secondAttribute="bottom" constant="259" id="0B5-rc-LDk"/>
+                            <constraint firstAttribute="trailing" secondItem="PzQ-6W-2L4" secondAttribute="trailing" constant="-25" id="0gn-7R-4J7"/>
+                            <constraint firstItem="Wus-1D-cBf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6by-Rt-2ZK"/>
+                            <constraint firstItem="TmY-w4-Wwo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="AZ4-cP-Ioi"/>
+                            <constraint firstItem="PzQ-6W-2L4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-44" id="FD1-ZE-yGp"/>
+                            <constraint firstItem="Wus-1D-cBf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="294" id="QpQ-91-3Ax"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TmY-w4-Wwo" secondAttribute="trailing" constant="2" id="YNn-OZ-2bK"/>
+                            <constraint firstItem="cbV-xS-hGC" firstAttribute="top" secondItem="TmY-w4-Wwo" secondAttribute="bottom" constant="4" id="fGL-0y-GPl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TmY-w4-Wwo" secondAttribute="bottom" constant="294" id="m8x-tK-LbJ"/>
+                            <constraint firstItem="TmY-w4-Wwo" firstAttribute="top" secondItem="Wus-1D-cBf" secondAttribute="bottom" constant="41.5" id="rQe-h6-5LV"/>
+                            <constraint firstItem="PzQ-6W-2L4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-25" id="u1r-Kn-RAq"/>
+                            <constraint firstItem="cbV-xS-hGC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wf6-hg-sVJ"/>
+                            <constraint firstItem="cbV-xS-hGC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zjz-vx-Hel"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NCv-hl-Kvv"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="TmY-w4-Wwo" id="Pcl-y8-Br5"/>
+                        <outlet property="titleLabel" destination="Wus-1D-cBf" id="ySh-47-VKl"/>
+                        <segue destination="Wdn-Wb-W6Q" kind="show" identifier="Second" id="eJb-X6-du6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="wE1-GR-yaV">
+            <objects>
+                <viewController id="Wdn-Wb-W6Q" customClass="SecondViewController" customModule="Jupiter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mSk-DO-qHG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vYP-9m-Iwj">
+                                <rect key="frame" x="20" y="101" width="374" height="344"/>
+                                <mutableString key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its observed size.Jupiter is primarily composed of hydrogen, but helium constitutes one quarter of its mass and one tenth of its volume
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="25J-BI-6mQ"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="25J-BI-6mQ" firstAttribute="trailing" secondItem="vYP-9m-Iwj" secondAttribute="trailing" constant="20" id="SRG-Ot-v0E"/>
+                            <constraint firstItem="vYP-9m-Iwj" firstAttribute="top" secondItem="25J-BI-6mQ" secondAttribute="top" constant="13" id="WqY-uP-CPN"/>
+                            <constraint firstItem="vYP-9m-Iwj" firstAttribute="leading" secondItem="25J-BI-6mQ" secondAttribute="leading" constant="20" id="vCi-by-YsU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ufm-ZT-BOF">
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="xj6-hQ-1cH"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="overDescription" destination="vYP-9m-Iwj" id="CKd-kE-Q1P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dC7-av-vfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824.63768115942037" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jupiterr" width="440" height="440"/>
+    </resources>
+</document>
