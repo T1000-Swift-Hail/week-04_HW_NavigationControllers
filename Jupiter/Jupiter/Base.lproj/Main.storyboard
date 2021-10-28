@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qGG-Aa-RgY">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,62 +12,66 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Jupiter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg2-dl-5UD">
-                                <rect key="frame" x="310.66666666666669" y="508" width="97.333333333333314" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Learn More"/>
-                                <connections>
-                                    <segue destination="1tK-OW-thQ" kind="show" id="zuZ-Dh-ndD"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jupiter                                " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1Q-W7-NOB">
-                                <rect key="frame" x="20" y="353" width="289" height="35"/>
+                                <rect key="frame" x="10" y="323" width="191" height="35"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Ok9-0M-n0f"/>
+                                    <constraint firstAttribute="width" constant="299" id="gml-la-kcE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wg8-Em-54S">
-                                <rect key="frame" x="20" y="399" width="388" height="72"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="jupiterr.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="eja-l2-sSG">
+                                <rect key="frame" x="-6" y="-58" width="440" height="373"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="4a2-dR-n5l"/>
-                                    <constraint firstAttribute="width" constant="388" id="inm-g3-90q"/>
+                                    <constraint firstAttribute="width" constant="440" id="L35-nI-exu"/>
+                                    <constraint firstAttribute="height" constant="373" id="QLq-zw-Ocn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wg8-Em-54S">
+                                <rect key="frame" x="10" y="366" width="300" height="71.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="408" id="CQC-pX-qbZ"/>
+                                    <constraint firstAttribute="height" constant="71.670000000000002" id="Ylq-eH-qJo"/>
                                 </constraints>
                                 <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combine...</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="jupiterr.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="eja-l2-sSG">
-                                <rect key="frame" x="-6" y="-58" width="428" height="373"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg2-dl-5UD">
+                                <rect key="frame" x="253" y="445" width="10" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="440" id="eRc-eW-M5F"/>
+                                    <constraint firstAttribute="height" constant="31" id="8l7-Mb-iFy"/>
+                                    <constraint firstAttribute="width" constant="118" id="bXc-ep-82b"/>
                                 </constraints>
-                            </imageView>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn More"/>
+                                <connections>
+                                    <segue destination="1tK-OW-thQ" kind="show" id="zuZ-Dh-ndD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Wg8-Em-54S" firstAttribute="top" secondItem="D1Q-W7-NOB" secondAttribute="bottom" constant="11" id="4GB-nN-KkB"/>
-                            <constraint firstAttribute="bottom" secondItem="eja-l2-sSG" secondAttribute="bottom" constant="611" id="5ud-DF-KMP"/>
-                            <constraint firstItem="eja-l2-sSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="6" id="E0F-QC-v68"/>
-                            <constraint firstItem="eja-l2-sSG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="G49-rL-t7I"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pg2-dl-5UD" secondAttribute="trailing" constant="20" id="IS9-3E-ZwT"/>
-                            <constraint firstItem="eja-l2-sSG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-58" id="Mbc-rd-1Qi"/>
-                            <constraint firstItem="Wg8-Em-54S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PCf-SA-pTF"/>
-                            <constraint firstAttribute="trailing" secondItem="eja-l2-sSG" secondAttribute="trailing" constant="-6" id="S8D-3t-7YB"/>
-                            <constraint firstItem="Pg2-dl-5UD" firstAttribute="top" secondItem="Wg8-Em-54S" secondAttribute="bottom" constant="37" id="YSa-hk-zFX"/>
-                            <constraint firstItem="eja-l2-sSG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-58" id="a2B-jn-xIu"/>
-                            <constraint firstAttribute="bottom" secondItem="eja-l2-sSG" secondAttribute="bottom" constant="611" id="a9y-TC-PcR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wg8-Em-54S" secondAttribute="trailing" constant="20" id="nCg-gd-mr1"/>
-                            <constraint firstAttribute="trailing" secondItem="eja-l2-sSG" secondAttribute="trailing" constant="6" id="nTd-jR-Joi"/>
-                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oem-or-WRr"/>
-                            <constraint firstItem="eja-l2-sSG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ysT-LG-aX5"/>
-                            <constraint firstItem="eja-l2-sSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-6" id="yz1-DE-k09"/>
-                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="top" secondItem="eja-l2-sSG" secondAttribute="bottom" constant="38" id="zBm-y0-8xQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wg8-Em-54S" secondAttribute="trailing" constant="10" id="0CB-m3-3ut"/>
+                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="8cH-Xg-rhY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pg2-dl-5UD" secondAttribute="trailing" constant="57" id="FIu-mv-J2j"/>
+                            <constraint firstItem="eja-l2-sSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-6" id="HVz-R9-JmU"/>
+                            <constraint firstItem="eja-l2-sSG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-58" id="J3w-8W-M3a"/>
+                            <constraint firstItem="Wg8-Em-54S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="NNo-9A-7PC"/>
+                            <constraint firstItem="Pg2-dl-5UD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="253" id="UMv-jT-bnr"/>
+                            <constraint firstItem="Wg8-Em-54S" firstAttribute="top" secondItem="D1Q-W7-NOB" secondAttribute="bottom" constant="8" id="UYX-0p-uXy"/>
+                            <constraint firstItem="D1Q-W7-NOB" firstAttribute="top" secondItem="eja-l2-sSG" secondAttribute="bottom" constant="8" id="WpN-v5-k8p"/>
+                            <constraint firstAttribute="trailing" secondItem="eja-l2-sSG" secondAttribute="trailing" constant="-6" id="XgZ-ie-gXl"/>
+                            <constraint firstItem="Pg2-dl-5UD" firstAttribute="top" secondItem="Wg8-Em-54S" secondAttribute="bottom" constant="7.3300000000000001" id="mRw-Pn-DZr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D1Q-W7-NOB" secondAttribute="trailing" constant="119" id="tj7-GY-uck"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GmP-8d-kJO"/>
@@ -81,11 +85,11 @@
             <objects>
                 <viewController id="1tK-OW-thQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1pQ-65-V5I">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoH-TG-VN7">
-                                <rect key="frame" x="20" y="108.00000000000001" width="388" height="162.33333333333337"/>
+                                <rect key="frame" x="20" y="64" width="280" height="124.5"/>
                                 <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its observed size.Jupiter is primarily composed of hydrogen, but helium constitutes one quarter of its mass and one tenth of its volume.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,7 +120,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qGG-Aa-RgY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="11U-tf-k4v">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
