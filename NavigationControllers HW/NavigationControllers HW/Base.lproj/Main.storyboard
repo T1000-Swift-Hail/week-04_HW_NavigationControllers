@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Xj-OP-v2H">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationControllers_HW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jupiterr" translatesAutoresizingMaskIntoConstraints="NO" id="PjI-ny-vRO">
+                                <rect key="frame" x="15" y="57" width="357" height="308"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="308" id="MQK-QZ-KpJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jupiter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1Q-us-Gh2">
+                                <rect key="frame" x="25" y="395" width="110" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="WCG-gp-baV">
+                                <rect key="frame" x="10" y="447" width="370" height="120"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="370" id="HmH-5g-lD8"/>
+                                    <constraint firstAttribute="height" constant="120" id="mbW-d7-D5r"/>
+                                </constraints>
+                                <string key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combine...</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lw7-El-n8V">
+                                <rect key="frame" x="274" y="589" width="97.333333333333314" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn More">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="UQ5-kA-bio" kind="show" id="aca-FX-PEa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="lw7-El-n8V" firstAttribute="top" secondItem="WCG-gp-baV" secondAttribute="bottom" constant="22" id="7MN-re-ahf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b1Q-us-Gh2" secondAttribute="trailing" constant="255" id="D6n-Lu-Jhn"/>
+                            <constraint firstAttribute="trailing" secondItem="PjI-ny-vRO" secondAttribute="trailing" constant="18" id="Ezd-8P-HSB"/>
+                            <constraint firstItem="WCG-gp-baV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="GMj-t5-obC"/>
+                            <constraint firstItem="lw7-El-n8V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="274" id="Hft-kd-xPJ"/>
+                            <constraint firstItem="PjI-ny-vRO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="Vrv-L8-TVi"/>
+                            <constraint firstItem="WCG-gp-baV" firstAttribute="top" secondItem="b1Q-us-Gh2" secondAttribute="bottom" constant="15" id="cjZ-NE-l4c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WCG-gp-baV" secondAttribute="trailing" constant="10" id="opn-al-p7Q"/>
+                            <constraint firstItem="PjI-ny-vRO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="57" id="ovP-wJ-Vxt"/>
+                            <constraint firstItem="b1Q-us-Gh2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="s8R-XK-soE"/>
+                            <constraint firstItem="b1Q-us-Gh2" firstAttribute="top" secondItem="PjI-ny-vRO" secondAttribute="bottom" constant="30" id="zzB-De-zrj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lcM-Cl-ScP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927.69230769230762" y="65.402843601895725"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LUj-x1-YgF">
+            <objects>
+                <viewController id="UQ5-kA-bio" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jw8-Rx-TQ0">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ByM-VE-qEI">
+                                <rect key="frame" x="30" y="124" width="330" height="370"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <mutableString key="text">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its observed size.Jupiter is primarily composed of hydrogen, but helium constitutes one quarter of its mass and one tenth of its volume.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VFm-sE-7PM"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="ByM-VE-qEI" firstAttribute="top" secondItem="VFm-sE-7PM" secondAttribute="top" constant="36" id="BLe-B0-i1a"/>
+                            <constraint firstItem="VFm-sE-7PM" firstAttribute="trailing" secondItem="ByM-VE-qEI" secondAttribute="trailing" constant="30" id="TlI-dw-IAy"/>
+                            <constraint firstItem="ByM-VE-qEI" firstAttribute="leading" secondItem="VFm-sE-7PM" secondAttribute="leading" constant="30" id="h9N-OM-ty1"/>
+                            <constraint firstItem="VFm-sE-7PM" firstAttribute="bottom" secondItem="ByM-VE-qEI" secondAttribute="bottom" constant="316" id="qUG-VK-mkK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="z1u-GN-Dh6">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="yA6-fp-OOR">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="w3b-m1-vc1">
+                                <rect key="frame" x="322" y="5" width="52" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="book" catalog="system"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Qo-S8-UB7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1703.0769230769231" y="67.535545023696685"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="X4L-le-drz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Xj-OP-v2H" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TsQ-zO-IYw">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Blr-bl-lEs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FMa-Ug-Nx2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="jupiterr" width="440" height="440"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
